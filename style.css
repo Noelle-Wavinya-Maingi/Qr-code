@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px; 
+    background-color: hsl(215, 66%, 73%); 
+}
+
+/* Container styles */
+.flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 20px; 
+}
+
+.container {
+    text-align: center;
+    max-width: 375px; 
+    width: 100%;
+}
+
+/* Card styles */
+.card {
+    background-color: hsl(0, 0%, 100%); 
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+}
+
+/* QR Code styles */
+.card img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+/* Text styles */
+.card h1 {
+    color: hsl(218, 44%, 22%); 
+    margin-top: 20px; 
+    font-weight: 700; 
+}
+
+.card p {
+    color: hsl(220, 15%, 55%); 
+    margin-top: 10px; 
+}
+
+/* Attribution styles */
+.attribution {
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.attribution a {
+    color: hsl(220, 15%, 55%); 
+    text-decoration: none;
+    font-weight: 700; 
+}
+
+.attribution a:hover {
+    color: hsl(218, 44%, 22%); 
+}
